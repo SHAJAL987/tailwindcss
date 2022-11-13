@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* group utillities */
+@layer components{
+    .btn{
+        @apply px-4 py-1 border rounded-full text-sm font-semibold hover:text-white hover:border-transparent focus:outline-none focus:ring-2 focus:ring-offset-2;
+    }
+    
+    .btn-red{
+        @apply border-red-400 text-red-400 hover:bg-red-600 focus:ring-red-600 dark:text-red-400 dark:focus:ring-offset-red-800;
+    }
+    
+    .btn-green{
+        @apply border-green-400 text-green-400 hover:bg-green-600 focus:ring-green-600 dark:text-green-400 dark:focus:ring-offset-green-800;
+    }
+}
+
